@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pm-in-a-box.org/sitemap.xml

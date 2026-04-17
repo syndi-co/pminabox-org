@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PM in a Box — open-source AI harness for property management, by the industry</title>
+
+  <meta name="description" content="An open-source AI agentic harness for property management operations. Built and maintained by the PM industry, for the PM industry. Full control over your data. Free to self-host." />
+  <meta name="theme-color" content="#0f1e3d" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pm-in-a-box.org/" />
+  <meta property="og:title" content="PM in a Box — by the industry, for the industry" />
+  <meta property="og:description" content="An open-source AI agentic harness for property management operations. Full control over your data. Free to self-host. Built by the PM industry." />
+  <meta property="og:image" content="https://pm-in-a-box.org/og-image.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PM in a Box — by the industry, for the industry" />
+  <meta name="twitter:description" content="Open-source AI agentic harness for property management operations. Your data stays yours." />
+  <meta name="twitter:image" content="https://pm-in-a-box.org/og-image.png" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav" id="nav">
+    <div class="wrap nav__inner">
+      <a href="#top" class="brand" aria-label="PM in a Box home">
+        <img src="logo.svg" alt="" width="32" height="39" class="brand__logo" />
+        <span class="brand__name">PM in a Box</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#problem">The Problem</a>
+        <a href="#building">What We're Building</a>
+        <a href="#skills">Skills</a>
+        <a href="#contribute">Contribute</a>
+      </nav>
+      <a class="btn btn--ghost nav__cta" href="https://github.com/pm-in-a-box" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 .2a8 8 0 0 0-2.53 15.6c.4.07.55-.17.55-.38v-1.48c-2.22.48-2.7-.94-2.7-.94-.36-.92-.89-1.17-.89-1.17-.72-.49.06-.48.06-.48.8.06 1.22.83 1.22.83.72 1.22 1.88.87 2.33.66.07-.52.28-.87.5-1.07-1.77-.2-3.64-.88-3.64-3.94 0-.87.31-1.58.83-2.14-.08-.2-.36-1.02.08-2.13 0 0 .67-.22 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.11.16 1.93.08 2.13.52.56.83 1.27.83 2.14 0 3.07-1.87 3.73-3.65 3.93.29.25.54.74.54 1.5v2.21c0 .21.15.46.55.38A8 8 0 0 0 8 .2Z"/></svg>
+        <span>Star on GitHub</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <p class="eyebrow">An official fork of biz-in-a-box.org · for property management</p>
+      <h1 class="hero__title">
+        Your <em>PM data.</em><br />
+        Your tools. Your industry.
+      </h1>
+      <p class="hero__sub">
+        PM in a Box is an open-source AI agentic harness for property management operations &mdash;
+        built and maintained by the PM industry, for the PM industry. Self-host it. Fork it.
+        Ship skills on top of it. Keep your data yours.
+      </p>
+      <div class="hero__ctas">
+        <a class="btn btn--primary" href="https://github.com/pm-in-a-box" target="_blank" rel="noopener">Star the repo</a>
+        <a class="btn btn--secondary" href="#problem">Read the manifesto</a>
+      </div>
+      <p class="hero__meta">Free · Open source · Self-hosted · MIT licensed</p>
+    </section>
+
+    <section id="problem" class="section section--problem">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--on-dark">The Problem</p>
+        <h2 class="section__title">
+          Your data has never been <em>yours.</em>
+        </h2>
+        <div class="grid grid--2">
+          <article class="prose">
+            <h3>Vendor lock-in is the industry's oldest tax</h3>
+            <p>
+              Every property manager knows the drill. Your PMS holds your leases,
+              your residents, your financials, your unit history &mdash; and the
+              moment you want to move, migrate, back up, or build on top of it,
+              you're quoted "extraction fees," stonewalled on exports, or handed
+              a dump that's half the data you actually had. Decades of operator
+              know-how, held hostage inside someone else's database.
+            </p>
+            <p>
+              This is the bane of everyone in the industry's existence. It has been
+              for a long time. So we're doing something about it.
+            </p>
+          </article>
+          <article class="prose">
+            <h3>AI raised the stakes</h3>
+            <p>
+              AI only works when your data is accessible, structured, and yours to
+              query. Property managers who can't freely move their PMS data can't
+              put AI to work on it &mdash; they get whatever generic assistant their
+              vendor decides to ship, on whatever timeline the vendor chooses, at
+              whatever price the vendor lists.
+            </p>
+            <p>
+              If the industry doesn't build its own agentic harness, someone else
+              will &mdash; and they'll lock us in again.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="building" class="section">
+      <div class="wrap">
+        <p class="eyebrow">What we're building</p>
+        <h2 class="section__title">
+          An AI agentic harness for property management.<br />
+          <em>Open source. By the industry. For the industry.</em>
+        </h2>
+        <div class="manifesto">
+          <p>
+            <strong>PM in a Box</strong> is an official fork of biz-in-a-box.org,
+            purpose-built for property management operations. "PM" stands for
+            Property Management. The harness runs agents on <em>your</em>
+            infrastructure, on <em>your</em> data, with skills and plugins
+            contributed by operators and partners across the industry.
+          </p>
+          <p>
+            Enable AI with a one-click install to improve your property management business.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--skills">
+      <div class="wrap">
+        <p class="eyebrow">Skills &amp; plugins from industry partners</p>
+        <h2 class="section__title">Built once. Shared with everyone.</h2>
+        <div class="grid grid--4">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a13 13 0 0 1 0 18M12 3a13 13 0 0 0 0 18"/></svg>
+            </div>
+            <h3>SEO / GEO (AI) optimized websites</h3>
+            <p>Including hosting. Sites that rank in Google <em>and</em> get cited by AI answer engines.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="4" width="18" height="5" rx="1.5"/><rect x="3" y="15" width="18" height="5" rx="1.5"/><path d="M7 7h.01M7 18h.01"/></svg>
+            </div>
+            <h3>Data backup &amp; agentic retrieval</h3>
+            <p>Continuous backup of your PMS data and an agent that can answer any question you ask of it.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M3 20h18M5 16l4-6 4 3 6-9"/></svg>
+            </div>
+            <h3>Real-time bookkeeping</h3>
+            <p>Daily profit &amp; loss visibility for your portfolio &mdash; not a month behind, not a quarter behind.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 6h16v10H7l-3 3V6z"/><path d="M8 10h8M8 13h5"/></svg>
+            </div>
+            <h3>AI-assisted frontline comms</h3>
+            <p>Email, SMS, voice, and website chat &mdash; agents that triage, draft, and reply on your rules.</p>
+          </article>
+        </div>
+        <p class="skills__footnote">
+          Have a skill to contribute? <a href="#contribute">We want it in the registry.</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="principles" class="section section--principles">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--on-dark">Principles</p>
+        <h2 class="section__title">Four things we won't compromise on.</h2>
+        <div class="grid grid--4 principles">
+          <div class="principle">
+            <span class="principle__num">01</span>
+            <h3>Full control over <em>your</em> data</h3>
+            <p>Your PMS data never leaves your infrastructure without your say.</p>
+          </div>
+          <div class="principle">
+            <span class="principle__num">02</span>
+            <h3>Fully open source</h3>
+            <p>MIT licensed. Every line readable. No hidden logic.</p>
+          </div>
+          <div class="principle">
+            <span class="principle__num">03</span>
+            <h3>FREE to self-host</h3>
+            <p>No seat fees. No per-unit fees. Run it on your own hardware or cloud.</p>
+          </div>
+          <div class="principle">
+            <span class="principle__num">04</span>
+            <h3>Built by the PM industry</h3>
+            <p>Governed, maintained, and reviewed by operators and partners in the field.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contribute" class="section">
+      <div class="wrap">
+        <p class="eyebrow">Contribute</p>
+        <h2 class="section__title">Three ways in.</h2>
+        <div class="grid grid--3">
+          <article class="lane">
+            <h3>Operators</h3>
+            <p>Install it. Run it on your ops. Open issues when something breaks. Star the repo so other operators find it.</p>
+            <a class="btn btn--link" href="https://github.com/pm-in-a-box" target="_blank" rel="noopener">Open the repo &rarr;</a>
+          </article>
+          <article class="lane">
+            <h3>Partners</h3>
+            <p>Ship a skill or plugin that plugs into the harness &mdash; bookkeeping, comms, DNS, websites, whatever your product does best.</p>
+            <a class="btn btn--link" href="https://github.com/pm-in-a-box" target="_blank" rel="noopener">Submit a skill &rarr;</a>
+          </article>
+          <article class="lane">
+            <h3>Engineers</h3>
+            <p>PRs welcome on the harness, skills, docs, this website. Typo fixes all the way up to architecture.</p>
+            <a class="btn btn--link" href="https://github.com/pm-in-a-box" target="_blank" rel="noopener">Open a PR &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--cta">
+      <div class="wrap cta">
+        <h2>The industry built the problem.<br /><em>The industry will build the way out.</em></h2>
+        <div class="cta__ctas">
+          <a class="btn btn--primary btn--lg" href="https://github.com/pm-in-a-box" target="_blank" rel="noopener">Star on GitHub</a>
+          <a class="btn btn--secondary btn--lg" href="mailto:hello@pm-in-a-box.org">Get involved</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__brand">
+        <img src="logo.svg" alt="" width="28" height="34" class="brand__logo brand__logo--on-dark" />
+        <strong>PM in a Box</strong>
+        <span class="footer__tag">By the industry, for the industry.</span>
+      </div>
+      <div class="footer__links">
+        <a href="https://github.com/pm-in-a-box" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://biz-in-a-box.org" target="_blank" rel="noopener">biz-in-a-box.org</a>
+        <a href="#contribute">Contribute</a>
+      </div>
+      <p class="footer__meta">
+        An official fork of <a href="https://biz-in-a-box.org" target="_blank" rel="noopener">biz-in-a-box.org</a>.
+        MIT licensed. &copy; <span id="year">2026</span> PM in a Box contributors.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
