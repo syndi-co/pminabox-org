@@ -6,7 +6,7 @@ This repo is the landing page at [pm-in-a-box.org](https://pm-in-a-box.org). It 
 
 ## What is PM in a Box?
 
-PM in a Box is an official fork of [biz-in-a-box.org](https://biz-in-a-box.org), focused on property management. "PM" stands for Property Management. The project's goal is to give every PM operator a self-hostable AI harness that runs on **their** data, with skills and plugins contributed by the industry.
+PM in a Box is an open-source AI harness focused on property management. "PM" stands for Property Management. The project's goal is to give every PM operator a self-hostable AI harness that runs on **their** data, with skills and plugins contributed by the industry. (Fork of [biz-in-a-box.org](https://biz-in-a-box.org).)
 
 The underlying thesis: property management data has been held hostage by vendor lock-in for decades. AI has raised the stakes on that lock-in. The industry's answer is to build and govern its own agentic harness, in the open.
 
