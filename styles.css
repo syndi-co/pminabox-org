@@ -391,6 +391,13 @@ h1 em, h2 em, h3 em {
   justify-content: center;
   flex-wrap: wrap;
 }
+.cta__founding {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+.cta__founding a { color: var(--terracotta); text-decoration: none; font-weight: 600; }
+.cta__founding a:hover { text-decoration: underline; }
 
 /* ---------- footer ---------- */
 .footer {
