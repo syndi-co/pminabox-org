@@ -13,7 +13,7 @@ The underlying thesis: property management data has been held hostage by vendor 
 ## Principles
 
 1. **Full control over your data** — your PMS data never leaves your infrastructure without your say.
-2. **Fully open source** — MIT licensed, every line readable.
+2. **Fully open source** — AGPL-3.0 licensed, every line readable. Modifications must be shared back.
 3. **FREE to self-host** — no seat fees, no per-unit fees.
 4. **Built by the PM industry** — governed and maintained by operators and partners in the field.
 
@@ -46,7 +46,7 @@ GitHub Pages serves from `main` at the repo root. The `CNAME` file pins the cust
 
 ## License
 
-MIT. See [`LICENSE`](./LICENSE).
+AGPL-3.0. See [`LICENSE`](./LICENSE). If you modify and distribute this software — or run it as a network service — you must release your source under the same license.
 
 ## Code of Conduct
 
