@@ -10,6 +10,9 @@ Skills are pluggable capabilities that extend PM in a Box. Each skill teaches th
 | Data backup & agentic retrieval | — | Planned |
 | Real-time bookkeeping | — | Planned |
 | AI-assisted frontline comms | — | Planned |
+| Rental listing agent | — | Planned |
+| Agentic rental comps | — | Planned |
+| Landlord insurance compliance & price shopper | — | Planned |
 
 ## How to add a skill
 
